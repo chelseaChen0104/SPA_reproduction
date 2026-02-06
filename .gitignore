@@ -1,0 +1,42 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Data files (too large for git)
+data/
+*.parquet
+*.csv
+*.json
+
+# Model checkpoints (too large)
+sftckpt/
+outputs/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Logs
+*.log
+wandb/
+tensorboard/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
